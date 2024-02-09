@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/tree-background-golden-summer-sunset_89378-143.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.866);
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 5px 0;
+    box-shadow: 0px 5px 22px 0px rgb(20, 20, 20);
+}
+
+a{
+    margin: 0 50px;
+    font-size: 17px;
+    text-decoration: none;
+    color:rgb(108, 255, 108);
+}
+
+#nam{
+    margin: 0 20px;
+    color: rgb(152, 152, 255);
+    font-size: 25px;
+}
+    
+.aboutpage{
+    /* background-color: rgb(0, 255, 174); */
+    background-color: rgba(0, 0, 0, 0.607);
+    padding: 20px;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.aboutpage img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#aboutme{
+    width: 50%;
+}
+
+.aboutHeading{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+.description{
+    font-size: 20px;
+}

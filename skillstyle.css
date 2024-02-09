@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/03/41/95/04/1000_F_341950409_Gq1sN2OqYgRZrUTvPohSmgQVubaqzlA5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.866);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 5px 0;
+    box-shadow: 0px 5px 22px 0px rgb(20, 20, 20);
+}
+
+a{
+    margin: 0 50px;
+    font-size: 17px;
+    text-decoration: none;
+    color:rgb(108, 255, 108);
+}
+
+#nam{
+    margin: 0 20px;
+    color: rgb(152, 152, 255);
+    font-size: 25px;
+}
+
+
+
+
+
+.skillpage{
+    background-color: rgba(0, 0, 0, 0.607);
+    height: 89vh;
+    display: flex;
+    padding: 0 20px;
+}
+
+.skill{
+    text-align: center;
+    width: 100px;
+    margin-right: 60px;
+    font-size: 100px;
+    color: azure;
+    border-style: hidden;
+    background-color:rgb(0, 85, 20);
+}
+
+.word{
+    padding: 5px;
+}
+
+.imgskill{
+    padding: 30px 0;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+ #html img{
+    height: 200px;
+    width: 200px;
+    margin: 0 35px;
+ }
+  
+ #python img{
+    margin: 80px 35px;
+    height: 200px;
+    width: 200px;
+ }

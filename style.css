@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color:rgba(0, 0, 0, 0.866);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 5px 0;
+    box-shadow: 0px 5px 22px 0px rgb(20, 20, 20);
+}
+
+a{
+    margin: 0 50px;
+    font-size: 17px;
+    text-decoration: none;
+    color:rgb(108, 255, 108);
+}
+
+#nam{
+    margin: 0 20px;
+    color: rgb(152, 152, 255);
+    font-size: 25px;
+}
+
+main{
+    height: 89vh;
+    background-color: rgba(0, 0, 0, 0.607);
+}
+
+#main-container{
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#look{
+    color: rgb(108, 255, 108);
+    font-size: xx-large;
+}
+
+#look2{
+    color:aqua;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+#blook{
+    color: rgb(152, 152, 255);
+}
+
+.line{
+    border: 2px solid rgb(100, 167, 255);
+    width: 50px;
+    margin: 0 10px;
+}
+
+.aboutpage{
+    /* background-color: rgb(0, 255, 174); */
+    background-color: rgba(0, 0, 0, 0.607);
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.aboutpage img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#aboutme{
+    width: 50%;
+}
+
+.aboutHeading{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.skillpage{
+    background-color: rgba(0, 0, 0, 0.607);
+    height: 100vh;
+    display: flex;
+    padding: 0 20px;
+}
+
+.skill{
+    height: 728px;
+    width: 100px;
+    margin-right: 60px;
+    font-size: 100px;
+    color: azure;
+    border-style: hidden;
+    background-color:cornflowerblue;
+}
+
+.word{
+    padding: 15px;
+}
+
+.imgskill{
+    padding: 30px 0;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+ #html img{
+    height: 200px;
+    width: 200px;
+    margin: 0 35px;
+ }
+  
+ #python img{
+    margin: 80px 35px;
+    height: 200px;
+    width: 200px;
+ }
+
+
+ #contactpage{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.607);
+ }
+
+ .contact-head{
+    padding-top: 100px;
+ }
+
+ #find{
+    font-size: 40PX;
+    color: blue;
+ }
+ 
+ #free{
+    font-size: 40PX;
+    color:aqua
+ }
+ #link a img{
+    width: 150px;
+ }
+ #insta a img{
+     width:200px
+ }
